@@ -1,0 +1,258 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10;
+  padding: 10;
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar {
+  background-color: #000;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.logo-icon {
+  color: #D3FF00;
+  margin-right: 10px;
+}
+
+.nav-links a, .nav-links button {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nav-links .login-btn {
+  background-color: #D3FF00;
+  color: #000;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.nav-links a:hover, .nav-links button:hover {
+  text-decoration: underline;
+}
+
+.login-page {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.login-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.login-content h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.tagline {
+  font-size: 18px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #D3FF00;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-form input {
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #000;
+}
+
+.login-form button {
+  background-color: #D3FF00;
+  color: #000;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #b8e600;
+}
+
+.container {
+  padding: 20px;
+  background-color: #000;
+  min-height: calc(100vh - 60px);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #111;
+}
+
+th, td {
+  border: 1px solid #333;
+  padding: 8px;
+  text-align: left;
+  color: #fff;
+}
+
+th {
+  background-color: #222;
+}
+
+input, button {
+  padding: 8px;
+  margin: 5px;
+}
+
+button {
+  background-color: #D3FF00;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #b8e600;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+}
+.navbar {
+  background-color: #000;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a, .nav-links button {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.nav-links .login-btn {
+  background-color: #D3FF00;
+  color: #000;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.nav-links a:hover, .nav-links button:hover {
+  text-decoration: underline;
+}
+
+/* Adjust login-page to account for fixed navbar */
+.login-page {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px; /* Offset for fixed navbar */
+}
+.navbar {
+  background-color: #000;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a, .nav-links button {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.nav-links .login-btn {
+  background-color: #D3FF00;
+  color: #000;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.nav-links a:hover, .nav-links button:hover {
+  text-decoration: underline;
+}
+
+/* Adjust login-page to account for fixed navbar */
+.login-page {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 60px; /* Offset for fixed navbar */
+}
